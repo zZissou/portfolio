@@ -1,0 +1,140 @@
+body {
+  /*background-color: rgb(91, 92, 94);*/
+  background-color: white;
+}
+
+.intro {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  color: white;
+  width: 100%;
+}
+
+#intros {
+  height: 100%;
+}
+.parallax img {
+  max-width: 100%;
+}
+.parallax-container {
+  color: white;
+  height: 100%;
+}
+
+
+.title {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.title h1 {
+  font-weight: 900;
+}
+
+.intro h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
+
+.intro h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#about h4 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#imagefix {
+  max-width: 40%;
+  max-height: auto;
+  float: left;
+  margin-left: 2%;
+  padding: 0;
+}
+
+#aboutfix {
+  font-size: 17px;
+  height: 370px;
+  width: 370px;
+  text-align: left;
+  margin: 0 2% 0 0;
+  float: right;
+  padding: 0;
+}
+
+
+.project-image img {
+  height: 203px;
+  width: 275px;
+}
+
+.project-image:hover {
+  opacity: .5;
+}
+
+
+
+
+
+
+.portfolio .col
+{
+    margin-bottom: 24px;
+}
+
+.portfolio h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.portfolio h4
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.portfolio .portfolio-holder
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  clear: both;
+  text-align: center;
+}
+
+.portfolio a
+{
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+#resume {
+  height: 700px;
+  padding-top: 50px;
+}
+
+#resume h4 {
+  text-align: center;
+}
+
+#resume ul {
+margin-top: 50px;
+}
