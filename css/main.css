@@ -77,6 +77,11 @@ body {
   padding: 0;
 }
 
+.motto {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 220px;
+}
 
 .project-image img {
   height: 203px;
@@ -86,11 +91,6 @@ body {
 .project-image:hover {
   opacity: .5;
 }
-
-
-
-
-
 
 .portfolio .col
 {
